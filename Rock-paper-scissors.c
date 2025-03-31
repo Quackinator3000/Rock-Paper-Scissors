@@ -24,10 +24,6 @@ int main(int argc, char *argv[])
     int score = 0;
     srand(time(NULL));
     int player_checked = 0;
-    // 0 = rock
-    // 1 = paper
-    // 2 = scissors
-    //player = tolower(player);
 
     // sterilize input
     if (argc < 2 || argc < 2)
@@ -67,13 +63,6 @@ int main(int argc, char *argv[])
         printf("You lose. CPU chose %s.\n", choice[cpu]);
     }
     
-    
-    
-    // cpu randomly selects an option
-    
-    // compare the user's input
-
-    // determine winner
 
 
     return 0;
